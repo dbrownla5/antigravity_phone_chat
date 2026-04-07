@@ -1,6 +1,27 @@
-# 📦 Release Notes
+---
 
-All notable changes to **Antigravity Phone Connect** are documented here, in reverse chronological order (latest first).
+## v0.3.0 - Security & Architecture Hardening 🛡️
+**Release Date:** April 07, 2026
+
+---
+
+### 🛡️ Zero-Trust Frontend & CSP
+- **Zero-Inline Architecture**: Refactored 100% of the mobile frontend to remove `'unsafe-inline'` script dependencies. All UI interactions (SSL, history, modals) are now handled via secure event listeners and high-performance delegation in `app.js`.
+- **Strict Content Security Policy (CSP)**: Implemented a robust CSP in `index.html` that explicitly blocks inline JS. This provides a critical defense-in-depth layer against XSS risks from mirrored IDE snapshots.
+- **Security-First Event Logic**: Moved from brittle `onclick` attributes to a modern, decoupled event system. This improves codebase maintainability and significantly hardens the client's security posture.
+
+### ⚡ Performance & Core Hardening
+- **Automated Security Audit**: The `server.js` engine now conducts a real-time security check upon launch. High-visibility ⚠️ warnings are printed to the terminal if default passwords or insecure session secrets are detected.
+- **Cloudflare Tunnel Support (v0.2.34)**: Added first-class support for `cloudflared` as a native alternative to ngrok, offering even lower latency and seamless global access.
+- **History Reliability (v0.2.35)**: Improved the conversation switching engine with smarter collection polling and workspace filtering, making history navigation significantly more resilient.
+
+### 🎮 Remote Management & UI
+- **Enhanced Permission Control (v0.2.31)**: Expanded the deterministic targeting layer to handle complex IDE permission bars. You can now "Allow", "Deny", or "Review Changes" directly from your phone with 100% click-parity.
+- **Architecture Infographic (v0.2.29)**: Added a new, theme-aware technical infographic to the `README.md` for better project transparency.
+
+### 📚 Documentation Overhaul
+- **Comprehensive Docs Update**: Synced `SECURITY.md`, `CODE_DOCUMENTATION.md`, and `DESIGN_PHILOSOPHY.md` with the new security-first architecture. 
+- **Setup Guidance**: Added detailed instructions for first-time HTTPS configuration and tunnel provider selection.
 
 ---
 

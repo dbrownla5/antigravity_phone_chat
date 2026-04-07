@@ -12,6 +12,8 @@
 - **📱 Mobile-First History**: Access and switch conversation history from a sleek, full-screen mobile drawer with native-feel cards and micro-animations.
 - **🏠 One-Tap Connect**: Automatically trusts your local home Wi-Fi (LAN) for instant access, while maintaining a Zero-Trust policy with password protection for all external traffic.
 
+![Antigravity Phone Connect](./assets/release_v0.3.0.png)
+
 ![Antigravity Phone Connect](./assets/global_access_hero_2.png)
 
 **Note:** This project is a refined fork/extension based on the original [Antigravity Shit-Chat](https://github.com/gherghett/Antigravity-Shit-Chat) by gherghett.

@@ -1,6 +1,74 @@
-# Social Media Posts for v0.2.28
+# Social Media Posts for v0.3.0
 
 ---
+
+## LinkedIn Post
+
+Remote AI coding just became a fortress. 🛡️🚀
+
+I'm thrilled to announce v0.3.0 of Antigravity Phone Connect! This update isn't just about features—it's about building a "Security-First" architecture for the modern developer.
+
+The major highlights:
+✅ Zero-Inline Hardening: We've refactored 100% of our frontend to remove 'unsafe-inline' JS. Every click, toggle, and modal now runs through a strict, decoupled event system. 🖱️
+✅ Strict Content Security Policy (CSP): By blocking inline scripts at the browser level, we've added a robust primary defense against XSS in mirrored IDE snapshots. 🛡️
+✅ Automated Security Audit: The server now audits itself on startup. Using default passwords? You’ll see high-visibility ⚠️ warnings in your terminal instantly. 🕵️‍♂️
+✅ Cloudflare Tunnel Support: Added native support for 'cloudflared' alongside ngrok. Access your AI globally with even lower latency. 🌍
+✅ Deterministic Permissions: We’ve extended our click-relay to handle complex IDE permission bars ("Allow", "Deny", "Review Updates") with perfect accuracy. 🎮
+
+Antigravity Phone Connect remains the most powerful way to stay productive while away from your desk. 📱✨
+
+🔗 Repo: https://github.com/krishnakanthb13/antigravity_phone_chat
+💖 Sponsor: https://krishnakanthb13.github.io/S/PLP.html
+
+---
+
+## Reddit Post
+
+**Suggested Sub-Reddits:** r/programming, r/webdev, r/SideProject, r/opensource, r/cybersecurity
+**Title:** [Showcase] Antigravity Phone Connect v0.3.0: Security Hardening with Zero-Inline CSP, Startup Audits, and Cloudflare Tunnels!
+
+Hey everyone! 👋 
+
+I'm back with v0.3.0 of **Antigravity Phone Connect**, and this release is a major milestone for **Core Security**. 📱🛡️
+
+If you haven't seen it, this is an open-source tool that mirrors your desktop AI coding assistant (like Antigravity) to your phone so you can monitor and control those long generations from anywhere.
+
+**The "Security & Freedom" Update:**
+
+🛡️ **Zero-Inline CSP**: We successfully refactored 100% of our DOM-based interaction logic to remove `onclick` handlers. With a new strict Content Security Policy disallowing `'unsafe-inline'`, the mobile client is now substantially hardened against XSS.
+    
+🕵️‍♂️ **Automated Startup Audit**: `server.js` now conduct an "Identity Check" on launch. It prints warnings if you're using default credentials, ensuring you never run an insecure instance by accident.
+
+🌍 **Cloudflare Tunnel Support**: You can now choose between ngrok or Cloudflare (`cloudflared`) for global access. Cloudflare offers fantastic performance and zero-config global reach.
+
+🎮 **Deterministic Permissions**: Handled those tricky "Allow/Deny" and "Review Changes" bars. Our deterministic targeting engine now tracks identity across complex, nested DOM trees with zero misclicks.
+
+📜 **Reliable History**: Swapping between past conversations is faster and more resilient thanks to improved workspace filtering.
+
+Antigravity Phone Connect is built with Node.js, Python, and CDP. Check out the hardened architecture on GitHub!
+
+🔗 **Repo**: https://github.com/krishnakanthb13/antigravity_phone_chat
+💖 **Sponsor**: https://krishnakanthb13.github.io/S/PLP.html
+
+---
+
+## X (Twitter) Post
+
+Antigravity Phone Connect v0.3.0 is a Security Powerhouse! 📱🛡️
+
+We’ve refactored the core to be a "Zero-Inline" fortress.
+
+✅ Strict CSP + No-Inline-JS architecture 🛡️
+✅ Automated Startup Security Audits 🕵️‍♂️
+✅ Cloudflare Tunnel Support 🌍
+✅ Deterministic Permission Tracking 🎯
+
+🔗 Repo: https://github.com/krishnakanthb13/antigravity_phone_chat
+💖 Support: https://krishnakanthb13.github.io/S/PLP.html
+
+---
+
+# Social Media Posts for v0.2.28
 
 ## LinkedIn Post
 
