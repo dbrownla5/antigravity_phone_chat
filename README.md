@@ -58,6 +58,7 @@ chmod +x start_ag_phone_connect.sh   # First time only
 ```
 
 The script will:
+- **Auto-setup a Python Virtual Environment (`venv`)** (Fixes PEP 668 issues on Arch/Linux)
 - Verify Node.js and Python dependencies
 - Auto-kill any existing server on port 3000
 - **Wait for Antigravity** if it's not started yet
@@ -212,6 +213,7 @@ This tool is designed with a **"Local-First"** security model.
 - **Context Menu Management**: Dedicated scripts to **Install, Remove, Restart, or Backup** your Right-Click integrations.
 - **Health Monitoring**: Built-in `/health` endpoint for server status checks.
 - **Graceful Shutdown**: Clean exit on Ctrl+C, closing all connections properly.
+- **Python Virtual Environment (`venv`) Support**: Launcher scripts now automatically create and use a local `venv` (approx. 25-30MB). This ensures compatibility with modern Linux distributions (Arch, Debian 12+) that enforce PEP 668 (externally-managed-environment) and prevents package conflicts on Windows/macOS.
 - **Zero-Config**: The launch scripts handle the heavy lifting of environment setup.
 
 ---

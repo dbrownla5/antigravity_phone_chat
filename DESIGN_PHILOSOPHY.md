@@ -45,6 +45,8 @@ The mobile UI now features a **Premium Full-Screen History Layer**. This design 
 - **Quick Actions (Prompt Pills)**: Reduces the friction of common repetitive interactions on mobile. One-tap actions like "Continue", "Fix Bugs", or "Explain this code" are instantly relayed up to the Desktop IDE with no manual typing required.
 - **Bi-directional Sync**: If you change the model on your Desktop, your phone updates automatically. The goal is for both devices to feel like parts of the same "brain".
 - **🔒 Secure Connection**: HTTPS support removes the browser warning icon, making the experience feel more professional and trustworthy.
+- **📦 Self-Contained Runtime (venv)**: By bundling dependencies into a local virtual environment, we shield the user from OS-level Python re-configurations (like Arch's externally managed environments) and provide a "delete-folder-to-uninstall" experience.
+- **Zero-Config**: Users shouldn't need to be DevOps engineers to run a mobile monitor. We automate the boring parts (SSL generation, venv setup, process cleanup).
 
 ## Technical Trade-offs
 

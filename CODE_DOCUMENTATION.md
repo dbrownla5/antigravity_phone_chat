@@ -22,6 +22,7 @@ antigravity_phone_chat/
 ├── install_context_menu.bat        # Windows Context Menu installer/manager
 ├── install_context_menu.sh         # Linux Context Menu installer (Creates .desktop files)
 ├── launcher.py                     # Unified Python launcher (Manages Server, Tunnel, QR Codes)
+├── venv/                           # Python Virtual Environment (Local, gitignored)
 ├── .env                            # Local configuration (Passwords & API Tokens - gitignored)
 ├── .env.example                    # Template for environment variables
 ├── package.json                    # Dependencies and metadata
@@ -104,6 +105,7 @@ When using the `_web` launcher, the system utilizes `ngrok` to create a secure t
 - **Magic Links**: In Web Mode, the launcher generates a "Magic QR Code" that includes the `?key=PASSWORD` parameter, allowing for instant, zero-typing auto-login on mobile.
 - **Auto-Protocol Detection**: `launcher.py` detects if the local server is running HTTPS and configures the tunnel accordingly.
 - **Passcode Generation**: If no `APP_PASSWORD` is set in `.env`, a temporary 6-digit numeric passcode is generated for the session.
+- **Python Virtual Environment (`venv`) Isolation**: Launcher scripts (`.sh` and `.bat`) wrap `launcher.py` in a dedicated local virtual environment. This prevents "externally-managed-environment" (PEP 668) errors on Arch/Linux, ensures `pip install` works without administrator privileges, and keeps the user's system Python clean.
 - **Setup Assistant**: Launchers check for `.env`; if missing, they automatically create it using `.env.example` as a template and instruct the user to update it.
 
 ### 2. Password Protection

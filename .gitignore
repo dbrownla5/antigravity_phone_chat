@@ -35,3 +35,15 @@ certs/
 
 # Registry
 registry/
+
+# Python Virtual Environment
+venv/
+.venv/
+env/
+scripts/ (Windows specific)
+bin/ (Linux specific)
+pyvenv.cfg
+include/
+lib/
+lib64/
+share/
